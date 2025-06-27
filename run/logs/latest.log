@@ -1,0 +1,1077 @@
+[13:08:55] [main/INFO]: Extra: []
+[13:08:55] [main/INFO]: Found and added coremod: net.ccbluex.liquidbounce.injection.forge.MixinLoader
+[13:08:55] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/User/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[13:08:56] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:08:56] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:08:56] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:08:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:08:56] [main/INFO]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
+[13:08:56] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Windows 10:amd64:10.0, installed at C:\Users\User\.jdks\corretto-1.8.0_452\jre
+[13:08:56] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:08:56] [main/INFO]: Found a command line coremod : net.ccbluex.liquidbounce.injection.forge.MixinLoader
+[13:08:56] [main/WARN]: The coremod net.ccbluex.liquidbounce.injection.forge.MixinLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[13:08:56] [main/INFO]: [net.ccbluex.liquidbounce.injection.forge.MixinLoader:<init>:20]: [FDPCLIENT] Injecting with IFMLLoadingPlugin.
+[13:08:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/User/Desktop/FDPClient-main/build/libs/FDPClient-b7.jar Service=LaunchWrapper Env=CLIENT
+[13:08:56] [main/INFO]: Compatibility level set to JAVA_8
+[13:08:56] [main/ERROR]: Mixin config fdpclient.forge.mixins.json does not specify "minVersion" property
+[13:08:56] [main/ERROR]: Mixin config fdpclient.forge.mixins.json does not specify "minVersion" property
+[13:08:56] [main/DEBUG]: Enqueued coremod MixinLoader
+[13:08:56] [main/DEBUG]: Attempting to load commandline specified mods, relative to C:\Users\User\Desktop\FDPClient-main\run\.
+[13:08:56] [main/DEBUG]: Discovering coremods
+[13:08:56] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:08:56] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[13:08:56] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[13:08:56] [main/INFO]: Injecting location in coremod net.ccbluex.liquidbounce.injection.forge.MixinLoader
+[13:08:56] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:08:56] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:08:56] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:08:56] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:08:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:08:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:08:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:08:56] [main/DEBUG]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[13:08:56] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[13:08:56] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[13:08:56] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[13:08:56] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[13:08:56] [main/DEBUG]: Injection complete
+[13:08:56] [main/DEBUG]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[13:08:56] [main/DEBUG]: Running coremod plugin FMLCorePlugin
+[13:08:56] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[13:08:56] [main/DEBUG]: Loading deobfuscation resource C:\Users\User\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg-mcp.srg with 27884 records
+[13:08:56] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[13:08:56] [main/DEBUG]: Coremod plugin class FMLCorePlugin run successfully
+[13:08:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:08:56] [main/DEBUG]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[13:08:56] [main/DEBUG]: Injection complete
+[13:08:56] [main/DEBUG]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[13:08:56] [main/DEBUG]: Running coremod plugin FMLForgePlugin
+[13:08:56] [main/DEBUG]: Coremod plugin class FMLForgePlugin run successfully
+[13:08:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:08:56] [main/DEBUG]: Injecting coremod MixinLoader {net.ccbluex.liquidbounce.injection.forge.MixinLoader} class transformers
+[13:08:56] [main/TRACE]: Registering transformer net.ccbluex.liquidbounce.injection.transformers.ForgeNetworkTransformer
+[13:08:56] [main/TRACE]: Registering transformer net.ccbluex.liquidbounce.script.remapper.injection.transformers.AbstractJavaLinkerTransformer
+[13:08:56] [main/DEBUG]: Injection complete
+[13:08:56] [main/DEBUG]: Running coremod plugin for MixinLoader {net.ccbluex.liquidbounce.injection.forge.MixinLoader}
+[13:08:56] [main/DEBUG]: Running coremod plugin MixinLoader
+[13:08:56] [main/DEBUG]: Coremod plugin class MixinLoader run successfully
+[13:08:56] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:08:56] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@18e8473e
+[13:08:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:08:56] [main/DEBUG]: Loaded 165 rules from AccessTransformer config file forge_at.cfg
+[13:08:56] [main/DEBUG]: Loaded 70 rules from AccessTransformer mod jar file C:\Users\User\Desktop\FDPClient-main\build\libs\FDPClient-b7.jar!META-INF/fdpclient_at.cfg
+
+[13:08:56] [main/DEBUG]: Validating minecraft
+[13:08:57] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:08:57] [main/INFO]: Remapping AccessTransformer rules...
+[13:08:57] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:08:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:08:57] [main/INFO]: Remapping refMap fdpclient.mixins.refmap.json using C:\Users\User\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\22\srgs\srg-mcp.srg
+[13:08:58] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:08:59] [main/WARN]: @Final field widgetsTexPath:Lnet/minecraft/util/ResourceLocation; in fdpclient.forge.mixins.json:gui.MixinGuiInGame should be final
+[13:09:00] [Client thread/INFO]: Setting user: Player343
+[13:09:00] [Client thread/INFO]: IntegratedServer mixin successfully loaded!
+[13:09:02] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:09:04] [Client thread/WARN]: =============================================================
+[13:09:04] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[13:09:04] [Client thread/WARN]: Offendor: com/sun/jna/Native.main([Ljava/lang/String;)V
+[13:09:04] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
+[13:09:04] [Client thread/WARN]: =============================================================
+[13:09:04] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MixinLoader (FDPClient-b7.jar)
+Contact their authors BEFORE contacting forge
+
+// Don't do that.
+
+Time: 27.06.25 13:09
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_452, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 1524066312 bytes (1453 MB) / 2070413312 bytes (1974 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 2 total; -Xms1024m -Xmx4096m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+MixinLoader (FDPClient-b7.jar)
+  net.ccbluex.liquidbounce.injection.transformers.ForgeNetworkTransformer
+  net.ccbluex.liquidbounce.script.remapper.injection.transformers.AbstractJavaLinkerTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 560.94' Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+[13:09:04] [Client thread/INFO]: MinecraftForge v11.15.1.2318 Initialized
+[13:09:04] [Client thread/INFO]: Replaced 229 ore recipies
+[13:09:04] [Thread-7/INFO]: [Shader] Successfully loaded: rainbow_font_shader.frag
+[13:09:04] [Thread-7/INFO]: [Shader] Successfully loaded: gradient_font_shader.frag
+[13:09:04] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[13:09:04] [Client thread/INFO]: Searching C:\Users\User\Desktop\FDPClient-main\run\mods for mods
+[13:09:05] [Client thread/INFO]: Forge Mod Loader has identified 3 mods to load
+[13:09:05] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
+[13:09:05] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[13:09:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[13:09:06] [Client thread/INFO]: Processing ObjectHolder annotations
+[13:09:06] [Client thread/INFO]: Found 384 ObjectHolder annotations
+[13:09:06] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[13:09:06] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[13:09:06] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[13:09:06] [Client thread/INFO]: Applying holder lookups
+[13:09:06] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:09:06] [Client thread/INFO]: Holder lookups applied
+[13:09:06] [Client thread/INFO]: Injecting itemstacks
+[13:09:06] [Client thread/INFO]: Itemstack injection complete
+[13:09:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:09:06] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[13:09:06] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:09:06] [Thread-9/INFO]: OpenAL initialized.
+[13:09:07] [Sound Library Loader/INFO]: Sound engine started
+[13:09:12] [Client thread/INFO]: Max texture size: 16384
+[13:09:12] [Client thread/INFO]: Created: 16x16 textures-atlas
+[13:09:13] [Client thread/INFO]: Injecting itemstacks
+[13:09:13] [Client thread/INFO]: Itemstack injection complete
+[13:09:13] [Client thread/INFO]: Forge Mod Loader has successfully loaded 3 mods
+[13:09:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[13:09:13] [Client thread/INFO]: SoundSystem shutting down...
+[13:09:13] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:09:13] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:09:13] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[13:09:13] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:09:13] [Thread-11/INFO]: OpenAL initialized.
+[13:09:14] [Sound Library Loader/INFO]: Sound engine started
+[13:09:16] [Client thread/INFO]: Max texture size: 16384
+[13:09:16] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:09:16] [Client thread/INFO]: Launching...
+[13:09:16] [Client thread/ERROR]: Failed to load language en_US
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 396 column 6
+	at com.google.gson.Gson.fromJson(Gson.java:818) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:741) ~[Gson.class:?]
+	at net.ccbluex.liquidbounce.handler.lang.LanguageManager.loadLanguages(Language.kt:49) [LanguageManager.class:?]
+	at net.ccbluex.liquidbounce.FDPClient.startClient(FDPClient.kt:115) [FDPClient.class:?]
+	at net.minecraft.client.Minecraft.handler$startGame$zzf000(Minecraft.java:3197) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:496) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:329) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 396 column 6
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:494) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:403) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:184) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93) ~[ReflectiveTypeAdapterFactory$1.class:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172) ~[ReflectiveTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:803) ~[Gson.class:?]
+	... 19 more
+[13:09:16] [Client thread/INFO]: Loaded language pt_BR
+[13:09:16] [Client thread/INFO]: Loaded language pt_PT
+[13:09:16] [Client thread/INFO]: Loaded language zh_CN
+[13:09:16] [Client thread/INFO]: Loaded language zh_TW
+[13:09:16] [Client thread/INFO]: Loaded language bg_BG
+[13:09:16] [Client thread/ERROR]: Failed to load language ru_RU
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 396 column 6
+	at com.google.gson.Gson.fromJson(Gson.java:818) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:741) ~[Gson.class:?]
+	at net.ccbluex.liquidbounce.handler.lang.LanguageManager.loadLanguages(Language.kt:49) [LanguageManager.class:?]
+	at net.ccbluex.liquidbounce.FDPClient.startClient(FDPClient.kt:115) [FDPClient.class:?]
+	at net.minecraft.client.Minecraft.handler$startGame$zzf000(Minecraft.java:3197) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:496) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:329) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 396 column 6
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:494) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:403) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:184) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93) ~[ReflectiveTypeAdapterFactory$1.class:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172) ~[ReflectiveTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:803) ~[Gson.class:?]
+	... 19 more
+[13:09:17] [Client thread/INFO]: Loading Fonts.
+[13:09:18] [Client thread/INFO]: Loaded Fonts. (1613ms)
+[13:09:19] [Thread-15/INFO]: Successfully loaded 17 settings.
+[13:09:19] [Client thread/INFO]: [ModuleManager] Loading modules...
+[13:09:21] [Client thread/INFO]: [ModuleManager] Loaded 161 modules.
+[13:09:22] [Client thread/INFO]: Loaded API
+[13:09:22] [Client thread/INFO]: Loaded Changelogs
+[13:09:22] [Client thread/INFO]: Loaded Bugs
+[13:09:23] [Client thread/INFO]: Load Picture checkmarkIDE, notifications
+[13:09:23] [Client thread/INFO]: Load Picture warningIDE, notifications
+[13:09:23] [Client thread/INFO]: Load Picture errorIDE, notifications
+[13:09:23] [Client thread/INFO]: Load Picture infoIDE, notifications
+[13:09:23] [Client thread/INFO]: Load Picture freddy, models
+[13:09:23] [Client thread/INFO]: Load Picture imposter, models
+[13:09:23] [Client thread/INFO]: Load Picture rabbit, models
+[13:09:23] [Client thread/INFO]: Load Picture classic, cape
+[13:09:23] [Client thread/INFO]: Load Picture classic, cape
+[13:09:23] [Client thread/INFO]: Load Picture classic2, cape
+[13:09:23] [Client thread/INFO]: Load Picture aurora, cape
+[13:09:24] [Client thread/INFO]: Load Picture forest, cape
+[13:09:24] [Client thread/INFO]: Load Picture rose, cape
+[13:09:24] [Client thread/INFO]: Load Picture lavender, cape
+[13:09:25] [Client thread/INFO]: Load Picture ocean, cape
+[13:09:25] [Client thread/INFO]: Load Picture modern1, cape
+[13:09:25] [Client thread/INFO]: Load Picture modern2, cape
+[13:09:25] [Client thread/INFO]: Load Picture lava, cape
+[13:09:25] [Client thread/INFO]: Load Picture citrus, cape
+[13:09:25] [Client thread/INFO]: Load Picture fire, cape
+[13:09:25] [Client thread/INFO]: Load Picture blue, cape
+[13:09:26] [Client thread/INFO]: Load Picture abstract, cape
+[13:09:26] [Client thread/INFO]: Load Picture owner, cape
+[13:09:26] [Client thread/INFO]: Load Picture hud, design
+[13:09:26] [Client thread/INFO]: Load Picture logo, design
+[13:09:26] [Client thread/INFO]: Load Picture particle, design
+[13:09:26] [Client thread/INFO]: Load Picture dragonwings, wings
+[13:09:26] [Client thread/INFO]: Load Picture neonwings, wings
+[13:09:27] [Client thread/INFO]: Load Picture fdp, design
+[13:09:27] [Client thread/INFO]: Loaded Pictures
+[13:09:27] [Client thread/INFO]: Failed to load Donor Capes
+[13:09:27] [Client thread/INFO]: [Remapper] Hash a8486671a5e85153773eaac313f8babd1913b41524b45e92d42e6cf019e658eb compared to a8486671a5e85153773eaac313f8babd1913b41524b45e92d42e6cf019e658eb
+[13:09:27] [Client thread/INFO]: [Remapper] Successfully loaded SRG mappings.
+[13:09:27] [Client thread/INFO]: [FileManager] Loaded config: modules.json.
+[13:09:27] [Client thread/INFO]: [FileManager] Loaded config: values.json.
+[13:09:27] [Client thread/INFO]: [FileManager] Loaded config: clickgui.json.
+[13:09:27] [Client thread/INFO]: [FileManager] Loaded config: accounts.json.
+[13:09:27] [Client thread/INFO]: [FileManager] Loaded config: friends.json.
+[13:09:27] [Client thread/INFO]: [FileManager] Loaded config: hud.json.
+[13:09:27] [DefaultDispatcher-worker-3/INFO]: Loading heads...
+[13:09:27] [DefaultDispatcher-worker-3/INFO]: Loading heads from https://headdb.org/api/category/all...
+[13:09:27] [DefaultDispatcher-worker-1/INFO]: (MCChat) §aSuccessfully loaded §9141 §astaff names.
+[13:09:28] [DefaultDispatcher-worker-3/INFO]: Loaded 956 heads from HeadDB.
+[13:09:28] [Client thread/INFO]: Message of the day: Your version of LiquidBounce is unsupported
+
+Update to LiquidBounce Nextgen and 
+enjoy the latest bypasses, up-to-date configs and
+support for Minecraft 1.8 up to 1.21.4.
+
+Click here
+[13:09:28] [Client thread/INFO]: Successfully started client
+[13:09:28] [DefaultDispatcher-worker-3/INFO]: Successfully loaded 474 cape carriers.
+[13:09:28] [Client thread/ERROR]: Unable to receive update information
+java.lang.IllegalStateException: {"error":"build not found","code":404}
+	at net.ccbluex.liquidbounce.handler.api.ClientApi.textEndpointRequest(ClientApi.kt:115) ~[ClientApi.class:?]
+	at net.ccbluex.liquidbounce.handler.api.ClientApi.requestNewestBuildEndpoint(ClientApi.kt:224) ~[ClientApi.class:?]
+	at net.ccbluex.liquidbounce.handler.api.ClientUpdate$newestVersion$2.invoke(ClientUpdate.kt:31) [ClientUpdate$newestVersion$2.class:?]
+	at net.ccbluex.liquidbounce.handler.api.ClientUpdate$newestVersion$2.invoke(ClientUpdate.kt:28) [ClientUpdate$newestVersion$2.class:?]
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74) [SynchronizedLazyImpl.class:?]
+	at net.ccbluex.liquidbounce.handler.api.ClientUpdate.getNewestVersion(ClientUpdate.kt:28) [ClientUpdate.class:?]
+	at net.ccbluex.liquidbounce.handler.api.ClientUpdate.hasUpdate(ClientUpdate.kt:40) [ClientUpdate.class:?]
+	at net.minecraft.client.Minecraft.handler$afterMainScreen$zzf000(Minecraft.java:3217) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:505) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:329) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+[13:09:28] [Client thread/INFO]: [Shader] Successfully loaded: background.frag
+[13:09:47] [Netty Client IO #0/INFO]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[13:09:49] [Thread-20/INFO]: (MCChat) §7[§a§lChat§7] §9Connecting to chat server...
+[13:09:49] [Thread-20/INFO]: (MCChat) §7[§a§lChat§7] §9Connected to chat server!
+[13:09:51] [Client thread/INFO]: Connecting to balancer.dexland.org., 25565
+[13:09:53] [Client thread/INFO]: [Shader] Successfully loaded: gradient_shader.frag
+[13:09:53] [Client thread/INFO]: [Shader] Successfully loaded: rainbow_shader.frag
+[13:09:53] [Client thread/INFO]: [CHAT] 
+
+
+
+◊ Зарегистрируйтесь › /reg [пароль]
+
+◊ Делайте сложный пароль (!)
+◊ Обязательно запишите этот пароль (!)
+
+
+[13:09:56] [Client thread/INFO]: [CHAT] ◊ Вы успешно зарегистрировались
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:45) [Util.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1014) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:95) [start/:?]
+	at GradleStart.main(GradleStart.java:24) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(SourceFile:229) ~[Scoreboard.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1813) ~[NetHandlerPlayClient.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:113) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(SourceFile:13) ~[S3EPacketTeams.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_452]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_452]
+	at net.minecraft.util.Util.runTask(SourceFile:44) ~[Util.class:?]
+	... 15 more
+[13:09:57] [pool-2-thread-1/ERROR]: Textures payload has been tampered with (signature invalid)
+[13:09:57] [pool-2-thread-1/ERROR]: Textures payload has been tampered with (signature invalid)
+[13:09:57] [pool-2-thread-1/ERROR]: Textures payload has been tampered with (signature invalid)
+[13:09:57] [pool-2-thread-1/ERROR]: Textures payload has been tampered with (signature invalid)
+[13:09:58] [Client thread/INFO]: [CHAT] Подключение к bw-lobby-3...
+[13:10:02] [Client thread/INFO]: [CHAT] BedWars ▸ [Игрок] Burly_Pinemarten подключился к игре 1/8
+[13:10:03] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:10:03] [Client thread/INFO]: [CHAT] BedWars ▸ [Игрок] YTnosokV2 подключился к игре 2/8
+[13:10:06] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:10:12] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:10:16] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:10:17] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:10:18] [Client thread/INFO]: [CHAT] Подключение к bw-lobby-1...
+[13:10:18] [Client thread/INFO]: [CHAT] BedWars ▸ Телепортация в лобби....
+[13:10:19] [Client thread/INFO]: [CHAT] › Игрок [LEGEND] gaaaaraa эпично появился из дымовой завесы
+[13:10:21] [Client thread/INFO]: [CHAT] BedWars ▸ [Игрок] Burly_Pinemarten подключился к игре 8/8
+[13:10:21] [Client thread/INFO]: [CHAT] BedWars ▸ До старта осталось 15 секунд...
+[13:10:26] [Client thread/INFO]: [CHAT] BedWars ▸ До старта осталось 10 секунд...
+[13:10:31] [Client thread/INFO]: [CHAT] BedWars ▸ До старта осталось 5 секунд...
+[13:10:32] [Client thread/INFO]: [CHAT] BedWars ▸ До старта осталось 4 секунд...
+[13:10:33] [Client thread/INFO]: [CHAT] BedWars ▸ До старта осталось 3 секунд...
+[13:10:34] [Client thread/INFO]: [CHAT] BedWars ▸ До старта осталось 2 секунд...
+[13:10:35] [DefaultDispatcher-worker-3/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3§9Creating settings...
+[13:10:35] [DefaultDispatcher-worker-3/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3§9Saving settings...
+[13:10:35] [DefaultDispatcher-worker-3/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3§6Settings saved successfully.
+[13:10:35] [Client thread/INFO]: [CHAT] BedWars ▸ До старта осталось 1 секунд...
+[13:10:36] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[13:10:36] [Client thread/INFO]: [CHAT]   
+[13:10:36] [Client thread/INFO]: [CHAT]                            КРОВАТНЫЕ ВОЙНЫ
+[13:10:36] [Client thread/INFO]: [CHAT]                             
+[13:10:36] [Client thread/INFO]: [CHAT]                 Защити свою кровать и сломай чужие кровати.
+[13:10:36] [Client thread/INFO]: [CHAT]           Покупай предметы и улучшения для своей команды за
+[13:10:36] [Client thread/INFO]: [CHAT]         Железо, Золото, Алмазы и Изумруды чтобы стать несокрушимыми!
+[13:10:36] [Client thread/INFO]: [CHAT]                  Победит только одна, сильнейшая команда!
+[13:10:36] [Client thread/INFO]: [CHAT]                      Вы играете на mc.DexLand.org
+[13:10:36] [Client thread/INFO]: [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[13:10:50] [Client thread/INFO]: [CHAT] Вы купили Wool x48
+[13:10:55] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:10:55] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:10:56] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:04] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:04] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:09] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:10] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:10] [Client thread/INFO]: [CHAT] BedWars ▸ W_TeNToR был убит игроком Burly_Pinemarten.
+[13:11:11] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:13] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten разрушил кровать команды Голубые!
+[13:11:15] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:21] [Client thread/INFO]: [CHAT] BedWars ▸ W_TeNToR был убит игроком Burly_Pinemarten.
+[13:11:21] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:24] [Client thread/INFO]: [CHAT] ChestAura, ChestStealer
+[13:11:25] [Client thread/INFO]: [CHAT] ChestAura, ChestStealer
+[13:11:25] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:25] [Client thread/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3Disabled module §8ChestStealer§3.
+[13:11:25] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:26] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:11:35] [Client thread/INFO]: [CHAT] InventoryCleaner, InventoryMove
+[13:11:36] [Client thread/INFO]: [CHAT] InventoryCleaner, InventoryMove
+[13:11:37] [Client thread/INFO]: [CHAT] InventoryCleaner, InventoryMove
+[13:11:37] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:37] [Client thread/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3Enabled module §8InventoryCleaner§3.
+[13:11:40] [Client thread/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3Module 'InventoryCleane' not found.
+[13:11:43] [Client thread/INFO]: [CHAT] BedWars ▸ datRead был убит игроком DenZyyy_.
+[13:11:44] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:44] [Client thread/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3Disabled module §8InventoryCleaner§3.
+[13:11:46] [Client thread/INFO]: [CHAT] BedWars ▸ DenZyyy_ разрушил кровать команды Серые!
+[13:11:47] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:47] [Client thread/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3Disabled module §8AutoArmor§3.
+[13:11:49] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:11:50] [Client thread/INFO]: [CHAT] Вы купили Wool x13
+[13:11:50] [Client thread/INFO]: [CHAT] Вы купили Wool x13
+[13:11:50] [Client thread/INFO]: [CHAT] Вы купили Wool x13
+[13:11:50] [Client thread/INFO]: [CHAT] BedWars ▸ У Вас недостаточно ресурсов!
+[13:11:50] [Client thread/INFO]: [CHAT] BedWars ▸ dullo разрушил кровать команды Красные!
+[13:11:57] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:58] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:11:59] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:12:01] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:12:12] [Client thread/INFO]: [CHAT] BedWars ▸ datRead был убит игроком DenZyyy_.
+[13:12:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:12:17] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:12:17] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:12:17] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:12:20] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:12:20] [Client thread/INFO]: [CHAT] Вы купили §aЖелезная броня x1
+[13:12:20] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:12:20] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:12:20] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:12:21] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:12:21] [Client thread/INFO]: [CHAT] BedWars ▸ DenZyyy_ был убит игроком dullo.
+[13:12:23] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:12:23] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:12:27] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:12:30] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:12:35] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:12:36] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:12:37] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:12:39] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:12:41] [Client thread/INFO]: [CHAT] BedWars ▸ soos_god был убит игроком tekilla339.
+[13:12:42] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:12:47] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:12:50] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:12:58] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:13:01] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:13:02] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:13:05] [Client thread/INFO]: [CHAT] BedWars ▸ soos_god был убит игроком tekilla339.
+[13:13:06] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:13:06] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:13:06] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:13:06] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:13:12] [Client thread/INFO]: [CHAT] Вы не можете ломать кровать своей команды!
+[13:13:17] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:13:19] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:13:19] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:13:22] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:13:24] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:13:25] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:13:25] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:13:29] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:13:34] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:13:37] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:13:37] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:13:38] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:13:43] [Client thread/INFO]: [CHAT] Вы не можете ломать кровать своей команды!
+[13:13:45] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:13:46] [Client thread/INFO]: [CHAT] BedWars ▸ soos_god был убит игроком tekilla339.
+[13:13:47] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:13:47] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:13:49] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:13:50] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:13:57] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:13:59] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:14:00] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:14:01] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:14:04] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:14:05] [Client thread/INFO]: [CHAT] BedWars ▸ steam_team упал в бездну.
+[13:14:09] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:14:10] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:14:12] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:14:15] [Client thread/INFO]: [CHAT] BedWars ▸ tekilla339 был убит игроком soos_god.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:15] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:17] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:17] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:18] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:14:20] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:14:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:14:33] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:14:35] [Client thread/INFO]: [CHAT] BedWars ▸ У Вас уже максимальный уровень этого предмета!
+[13:14:35] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:14:35] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:14:35] [Client thread/INFO]: [CHAT] BedWars ▸ У Вас недостаточно ресурсов!
+[13:14:43] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:14:44] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:14:45] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:14:47] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:14:51] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:14:55] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:14:58] [Client thread/INFO]: [CHAT] BedWars ▸ soos_god упал в бездну.
+[13:15:03] [Client thread/INFO]: [CHAT] BedWars ▸ tekilla339 разрушил кровать команды Желтые!
+[13:15:04] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:15:05] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:15:06] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:15:08] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:15:10] [Client thread/INFO]: [CHAT] BedWars ▸ steam_team покинул игру
+[13:15:12] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:15:13] [Client thread/INFO]: [CHAT] BedWars ▸ soos_god упал в бездну.
+[13:15:19] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:15:28] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten разрушил кровать команды Розовые!
+[13:15:28] [Client thread/INFO]: [CHAT] BedWars ▸ Команда Розовые уничтожена!
+[13:15:33] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:15:33] [Client thread/INFO]: [CHAT] Вы купили Wool x16
+[13:15:33] [Client thread/INFO]: [CHAT] Вы купили Wool x16
+[13:15:33] [Client thread/INFO]: [CHAT] Вы купили Wool x16
+[13:15:33] [Client thread/INFO]: [CHAT] Вы купили Wool x16
+[13:15:34] [Client thread/INFO]: [CHAT] BedWars ▸ У Вас недостаточно ресурсов!
+[13:15:37] [Client thread/INFO]: [CHAT] BedWars ▸ Генераторы алмазов прокачаны до уровня I.
+[13:16:29] [Client thread/INFO]: [CHAT] BedWars ▸ tekilla339 разрушил кровать команды Синие!
+[13:16:49] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:16:50] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:16:53] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:16:54] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:03] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:17:10] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:17:10] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:11] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:13] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:17:13] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:17:14] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:17:14] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:17:14] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:17:14] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:17:19] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:21] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:23] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:25] [Client thread/INFO]: [CHAT] BedWars ▸ dullo был скинут в бездну игроком Burly_Pinemarten.
+[13:17:31] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:32] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:37] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:38] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:40] [Client thread/INFO]: [CHAT] BedWars ▸ tekilla339 был скинут в бездну игроком Burly_Pinemarten.
+[13:17:44] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:17:44] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:17:45] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:48] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:17:55] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:17:55] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:17:55] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:17:56] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:17:59] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:01] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:03] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:04] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:18:07] [Client thread/INFO]: [CHAT] BedWars ▸ Генераторы алмазов прокачаны до уровня II.
+[13:18:13] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:18:16] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:18:16] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:18:16] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:18:16] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:18:21] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:31] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:31] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:34] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:18:35] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:35] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:35] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:35] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:36] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:36] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:36] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:36] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:36] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:36] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:36] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:37] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:38] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:18:39] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:40] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:41] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:42] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:43] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:18:43] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:18:43] [Client thread/INFO]: [CHAT] Вы купили Wool x32
+[13:18:47] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:47] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:48] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:53] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:18:56] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:56] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:56] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:56] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:18:57] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:19:00] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:19:02] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:03] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:05] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:10] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:10] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:10] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:10] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:10] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:10] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:10] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:10] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:10] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:11] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:11] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:12] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:19:18] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:19:19] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:19:21] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:19:24] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:26] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:31] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:32] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:19:34] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:19:35] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:19:35] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:19:35] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:19:39] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:19:40] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:19:42] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:19:50] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:19:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:52] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:53] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:19:55] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:20:10] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:20:11] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:20:13] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:20:14] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:20:18] [DefaultDispatcher-worker-2/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3§9Creating settings...
+[13:20:18] [DefaultDispatcher-worker-2/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3§9Saving settings...
+[13:20:18] [DefaultDispatcher-worker-2/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3§6Settings saved successfully.
+[13:20:21] [Client thread/INFO]: [CHAT] Вы купили Iron Sword x1
+[13:20:21] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:20:21] [Client thread/INFO]: [CHAT] Вы купили Wool x64
+[13:20:35] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:20:40] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:20:43] [Client thread/INFO]: [CHAT] BedWars ▸ Burly_Pinemarten упал в бездну.
+[13:20:44] [DefaultDispatcher-worker-2/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3§9Creating settings...
+[13:20:44] [DefaultDispatcher-worker-2/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3§9Saving settings...
+[13:20:44] [DefaultDispatcher-worker-2/INFO]: [CHAT] §7[§b§lFDPClient§7]§r §3§6Settings saved successfully.
+[13:20:46] [Client thread/INFO]: Applying holder lookups
+[13:20:46] [Client thread/INFO]: Holder lookups applied
+[13:20:47] [Netty Client IO #2/INFO]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: accounts.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: friends.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: hud.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: accounts.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: friends.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: hud.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: modules.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: values.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: clickgui.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: accounts.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: friends.json.
+[13:20:51] [Client thread/INFO]: [FileManager] Saved config: hud.json.
+[13:20:51] [Client thread/INFO]: Stopping!
+[13:20:51] [Client thread/INFO]: SoundSystem shutting down...
+[13:20:51] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
